@@ -1,3 +1,6 @@
+Dispatch request to service by trying to convert to the service's request type.
+
+```rust
 use futures::future::ready;
 use serde::Deserialize;
 use tower::{service_fn, Service, ServiceBuilder, ServiceExt};
@@ -40,3 +43,4 @@ fn main() {
     });
     println!("{res:?}");
 }
+```

@@ -2,6 +2,11 @@
 name = "tower_type_steer"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/krtab/tower_type_steer"
+license = "MIT"
+authors = ["Arthur Carcano"]
+description = "Steer (aka route, aka dispatch) request to service based on their types."
+
 
 [dependencies]
 futures-util = "0.3.30"
